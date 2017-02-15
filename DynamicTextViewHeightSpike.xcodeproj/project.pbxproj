@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A23387FB1E53E6EE006B84F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23387FA1E53E6EE006B84F2 /* AppDelegate.swift */; };
+		A23387FD1E53E6EE006B84F2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23387FC1E53E6EE006B84F2 /* ViewController.swift */; };
+		A23388001E53E6EE006B84F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23387FE1E53E6EE006B84F2 /* Main.storyboard */; };
+		A23388031E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A23388011E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodeld */; };
+		A23388051E53E6EE006B84F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A23388041E53E6EE006B84F2 /* Assets.xcassets */; };
+		A23388081E53E6EE006B84F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A23388061E53E6EE006B84F2 /* LaunchScreen.storyboard */; };
+		A23388131E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A23388121E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.swift */; };
+		A233881E1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A233881D1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A233880F1E53E6EE006B84F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23387EF1E53E6EE006B84F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23387F61E53E6EE006B84F2;
+			remoteInfo = DynamicTextViewHeightSpike;
+		};
+		A233881A1E53E6EE006B84F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A23387EF1E53E6EE006B84F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A23387F61E53E6EE006B84F2;
+			remoteInfo = DynamicTextViewHeightSpike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A23387F71E53E6EE006B84F2 /* DynamicTextViewHeightSpike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTextViewHeightSpike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23387FA1E53E6EE006B84F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A23387FC1E53E6EE006B84F2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A23387FF1E53E6EE006B84F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A23388021E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DynamicTextViewHeightSpike.xcdatamodel; sourceTree = "<group>"; };
+		A23388041E53E6EE006B84F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A23388071E53E6EE006B84F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A23388091E53E6EE006B84F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A233880E1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTextViewHeightSpikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A23388121E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextViewHeightSpikeTests.swift; sourceTree = "<group>"; };
+		A23388141E53E6EE006B84F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A23388191E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicTextViewHeightSpikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A233881D1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicTextViewHeightSpikeUITests.swift; sourceTree = "<group>"; };
+		A233881F1E53E6EE006B84F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A23387F41E53E6EE006B84F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A233880B1E53E6EE006B84F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23388161E53E6EE006B84F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A23387EE1E53E6EE006B84F2 = {
+			isa = PBXGroup;
+			children = (
+				A23387F91E53E6EE006B84F2 /* DynamicTextViewHeightSpike */,
+				A23388111E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests */,
+				A233881C1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests */,
+				A23387F81E53E6EE006B84F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A23387F81E53E6EE006B84F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A23387F71E53E6EE006B84F2 /* DynamicTextViewHeightSpike.app */,
+				A233880E1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.xctest */,
+				A23388191E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A23387F91E53E6EE006B84F2 /* DynamicTextViewHeightSpike */ = {
+			isa = PBXGroup;
+			children = (
+				A23387FA1E53E6EE006B84F2 /* AppDelegate.swift */,
+				A23387FC1E53E6EE006B84F2 /* ViewController.swift */,
+				A23387FE1E53E6EE006B84F2 /* Main.storyboard */,
+				A23388041E53E6EE006B84F2 /* Assets.xcassets */,
+				A23388061E53E6EE006B84F2 /* LaunchScreen.storyboard */,
+				A23388091E53E6EE006B84F2 /* Info.plist */,
+				A23388011E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodeld */,
+			);
+			path = DynamicTextViewHeightSpike;
+			sourceTree = "<group>";
+		};
+		A23388111E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A23388121E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.swift */,
+				A23388141E53E6EE006B84F2 /* Info.plist */,
+			);
+			path = DynamicTextViewHeightSpikeTests;
+			sourceTree = "<group>";
+		};
+		A233881C1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A233881D1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.swift */,
+				A233881F1E53E6EE006B84F2 /* Info.plist */,
+			);
+			path = DynamicTextViewHeightSpikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A23387F61E53E6EE006B84F2 /* DynamicTextViewHeightSpike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23388221E53E6EE006B84F2 /* Build configuration list for PBXNativeTarget "DynamicTextViewHeightSpike" */;
+			buildPhases = (
+				A23387F31E53E6EE006B84F2 /* Sources */,
+				A23387F41E53E6EE006B84F2 /* Frameworks */,
+				A23387F51E53E6EE006B84F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicTextViewHeightSpike;
+			productName = DynamicTextViewHeightSpike;
+			productReference = A23387F71E53E6EE006B84F2 /* DynamicTextViewHeightSpike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A233880D1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23388251E53E6EE006B84F2 /* Build configuration list for PBXNativeTarget "DynamicTextViewHeightSpikeTests" */;
+			buildPhases = (
+				A233880A1E53E6EE006B84F2 /* Sources */,
+				A233880B1E53E6EE006B84F2 /* Frameworks */,
+				A233880C1E53E6EE006B84F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A23388101E53E6EE006B84F2 /* PBXTargetDependency */,
+			);
+			name = DynamicTextViewHeightSpikeTests;
+			productName = DynamicTextViewHeightSpikeTests;
+			productReference = A233880E1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A23388181E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A23388281E53E6EE006B84F2 /* Build configuration list for PBXNativeTarget "DynamicTextViewHeightSpikeUITests" */;
+			buildPhases = (
+				A23388151E53E6EE006B84F2 /* Sources */,
+				A23388161E53E6EE006B84F2 /* Frameworks */,
+				A23388171E53E6EE006B84F2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A233881B1E53E6EE006B84F2 /* PBXTargetDependency */,
+			);
+			name = DynamicTextViewHeightSpikeUITests;
+			productName = DynamicTextViewHeightSpikeUITests;
+			productReference = A23388191E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A23387EF1E53E6EE006B84F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = DNA;
+				TargetAttributes = {
+					A23387F61E53E6EE006B84F2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HN269HF2N2;
+						ProvisioningStyle = Automatic;
+					};
+					A233880D1E53E6EE006B84F2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HN269HF2N2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A23387F61E53E6EE006B84F2;
+					};
+					A23388181E53E6EE006B84F2 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = HN269HF2N2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A23387F61E53E6EE006B84F2;
+					};
+				};
+			};
+			buildConfigurationList = A23387F21E53E6EE006B84F2 /* Build configuration list for PBXProject "DynamicTextViewHeightSpike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A23387EE1E53E6EE006B84F2;
+			productRefGroup = A23387F81E53E6EE006B84F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A23387F61E53E6EE006B84F2 /* DynamicTextViewHeightSpike */,
+				A233880D1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests */,
+				A23388181E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A23387F51E53E6EE006B84F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23388081E53E6EE006B84F2 /* LaunchScreen.storyboard in Resources */,
+				A23388051E53E6EE006B84F2 /* Assets.xcassets in Resources */,
+				A23388001E53E6EE006B84F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A233880C1E53E6EE006B84F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23388171E53E6EE006B84F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A23387F31E53E6EE006B84F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23388031E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodeld in Sources */,
+				A23387FD1E53E6EE006B84F2 /* ViewController.swift in Sources */,
+				A23387FB1E53E6EE006B84F2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A233880A1E53E6EE006B84F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A23388131E53E6EE006B84F2 /* DynamicTextViewHeightSpikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A23388151E53E6EE006B84F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A233881E1E53E6EE006B84F2 /* DynamicTextViewHeightSpikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A23388101E53E6EE006B84F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23387F61E53E6EE006B84F2 /* DynamicTextViewHeightSpike */;
+			targetProxy = A233880F1E53E6EE006B84F2 /* PBXContainerItemProxy */;
+		};
+		A233881B1E53E6EE006B84F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A23387F61E53E6EE006B84F2 /* DynamicTextViewHeightSpike */;
+			targetProxy = A233881A1E53E6EE006B84F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A23387FE1E53E6EE006B84F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23387FF1E53E6EE006B84F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A23388061E53E6EE006B84F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A23388071E53E6EE006B84F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A23388201E53E6EE006B84F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A23388211E53E6EE006B84F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A23388231E53E6EE006B84F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HN269HF2N2;
+				INFOPLIST_FILE = DynamicTextViewHeightSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juntilla.dexter.DynamicTextViewHeightSpike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A23388241E53E6EE006B84F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HN269HF2N2;
+				INFOPLIST_FILE = DynamicTextViewHeightSpike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juntilla.dexter.DynamicTextViewHeightSpike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A23388261E53E6EE006B84F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HN269HF2N2;
+				INFOPLIST_FILE = DynamicTextViewHeightSpikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juntilla.dexter.DynamicTextViewHeightSpikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicTextViewHeightSpike.app/DynamicTextViewHeightSpike";
+			};
+			name = Debug;
+		};
+		A23388271E53E6EE006B84F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HN269HF2N2;
+				INFOPLIST_FILE = DynamicTextViewHeightSpikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juntilla.dexter.DynamicTextViewHeightSpikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicTextViewHeightSpike.app/DynamicTextViewHeightSpike";
+			};
+			name = Release;
+		};
+		A23388291E53E6EE006B84F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HN269HF2N2;
+				INFOPLIST_FILE = DynamicTextViewHeightSpikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juntilla.dexter.DynamicTextViewHeightSpikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DynamicTextViewHeightSpike;
+			};
+			name = Debug;
+		};
+		A233882A1E53E6EE006B84F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = HN269HF2N2;
+				INFOPLIST_FILE = DynamicTextViewHeightSpikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = juntilla.dexter.DynamicTextViewHeightSpikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DynamicTextViewHeightSpike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A23387F21E53E6EE006B84F2 /* Build configuration list for PBXProject "DynamicTextViewHeightSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23388201E53E6EE006B84F2 /* Debug */,
+				A23388211E53E6EE006B84F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A23388221E53E6EE006B84F2 /* Build configuration list for PBXNativeTarget "DynamicTextViewHeightSpike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23388231E53E6EE006B84F2 /* Debug */,
+				A23388241E53E6EE006B84F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A23388251E53E6EE006B84F2 /* Build configuration list for PBXNativeTarget "DynamicTextViewHeightSpikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23388261E53E6EE006B84F2 /* Debug */,
+				A23388271E53E6EE006B84F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A23388281E53E6EE006B84F2 /* Build configuration list for PBXNativeTarget "DynamicTextViewHeightSpikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A23388291E53E6EE006B84F2 /* Debug */,
+				A233882A1E53E6EE006B84F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A23388011E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A23388021E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodel */,
+			);
+			currentVersion = A23388021E53E6EE006B84F2 /* DynamicTextViewHeightSpike.xcdatamodel */;
+			path = DynamicTextViewHeightSpike.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A23387EF1E53E6EE006B84F2 /* Project object */;
+}
