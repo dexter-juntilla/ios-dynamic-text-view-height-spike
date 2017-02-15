@@ -7,7 +7,10 @@
 //
 
 import UIKit
-
+/*!
+ IMPORTANT
+ disable textView scrolling
+ */
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
